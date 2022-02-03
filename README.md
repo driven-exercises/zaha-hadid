@@ -1,5 +1,1 @@
-O seu sonho de criança era ser um arquiteto, planejar, desenhar plantas e acompanhar a construção de casas. Porém, quando você cresceu e viu como realmente um arquiteto trabalho, perdeu o brilho da coisa.
-
-Agora que você é dev, decidiu dar uma segunda chance para esse sonho, só que dessa vez arquitetando servidores back-end.
-
-Separe a logica de respostas contida no arquivo `src/app.js` em dois arquivos, `src/controllers/authController.js` contendo as respostas das rotas `/sign-up` e `/sign-in` e `src/controllers/userController.js` contendo as respostas de todos os metodos da rota `/users`
+Continuando sua saga de arquiteta(o), agora vamos organizar os Routers do projeto. Crie uma pasta `/routes` e dentro de `/src` e coloque dois arquivos dentro dela, `authRouter.js` e `userController.js` esses arquivos devem usar o `express.Router()` para configurar as rotas que estão atualmente sendo configuradas em `app.js`
